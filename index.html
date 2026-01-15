@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ARCHIVE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="panel">
+      <video class="media" autoplay muted loop playsinline>
+        <source src="media.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hud">
+        <div class="line">ARCHIVE STATUS: <span id="status">ACTIVE</span></div>
+        <div class="line">LAST SYNC: <span id="sync">03:17</span></div>
+        <div class="line">ARCHIVE VERSION: <span id="ver">02</span></div>
+      </div>
+
+      <button class="hint" id="hintBtn" aria-label="hint"></button>
+
+      <div class="whisper" id="whisper" aria-hidden="true"></div>
+
+      <!-- Optional: super subtle link to IG (don’t call it Instagram) -->
+      <a class="source" href="https://instagram.com/YOURHANDLE" target="_blank" rel="noopener">
+        SOURCE ONLINE
+      </a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
